@@ -33,3 +33,16 @@ git status
 // Mặc định tên nhánh là main
 git push origin "tên nhánh"
 
+6. Kiểm tra sự thay đổi 
+
+Màu xanh là thêm, màu đỏ là xoá
+git diff "đường dẫn thay đổi"
+
+7. Kiểm tra mình đang làm trên nhánh nào
+git branch
+
+Tạo nhánh mới
+git branch "tên nhánh"
+
+Chuyển nhánh
+git checkout "tên nhánh chuyển đến"
