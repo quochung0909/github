@@ -15,11 +15,21 @@ git config --global user.email "your_email@example.com"
 git clone https://github.com/quochung0909/github.git
 
 5. Update code lên trên thùng chứa
-cd /dự án
-git status // Kiểm tra trạng thái đang ở working coppy hat staging area
+cd "đường dẫn dự án"
+
+Kiểm tra trạng thái đang ở working coppy hat staging area
+git status 
+
 git add "tên file" hoặc "." nếu nhiều file
-git status // nếu thấy xanh là ở staging area rồi 
+
+Kiểm tra nếu thấy xanh là ở staging area rồi 
+git status 
+
 git commit -m "comment" 
-git status // Nếu trắng không có gì thì đã ở Local Repository rồi, sẵn sáng up lên cloud
-git push origin "tên nhánh" // mặc định tên nhánh là main
+
+Nếu trắng không có gì thì đã ở Local Repository rồi, sẵn sáng up lên cloud
+git status 
+
+// Mặc định tên nhánh là main
+git push origin "tên nhánh"
 
